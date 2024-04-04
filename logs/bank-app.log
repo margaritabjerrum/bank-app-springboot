@@ -171,3 +171,63 @@
 [$-5level] 2024-04-04 11:24:07 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
 [$-5level] 2024-04-04 11:24:07 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 1 ms
 [$-5level] 2024-04-04 11:25:09 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:45:05 [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bootcamp.bank.app.BankAccountServiceTest]: BankAccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[$-5level] 2024-04-04 11:45:05 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bootcamp.bank.app.BankAppApplication for test class com.bootcamp.bank.app.BankAccountServiceTest
+[$-5level] 2024-04-04 11:45:06 [main] org.springframework.boot.StartupInfoLogger - Starting BankAccountServiceTest using Java 21.0.2 with PID 8588 (started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 11:45:06 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 11:45:07 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 11:45:07 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 11:45:08 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 11:45:08 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 11:45:08 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 11:45:08 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 11:45:09 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 11:45:10 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 11:45:10 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:45:10 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 11:45:10 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:45:10 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 11:45:10 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:45:11 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 11:45:11 [main] org.springframework.boot.StartupInfoLogger - Started BankAccountServiceTest in 5.992 seconds (process running for 7.884)
+[$-5level] 2024-04-04 11:45:13 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:47:30 [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bootcamp.bank.app.BankAccountServiceTest]: BankAccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[$-5level] 2024-04-04 11:47:30 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bootcamp.bank.app.BankAppApplication for test class com.bootcamp.bank.app.BankAccountServiceTest
+[$-5level] 2024-04-04 11:47:31 [main] org.springframework.boot.StartupInfoLogger - Starting BankAccountServiceTest using Java 21.0.2 with PID 2852 (started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 11:47:31 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 11:47:31 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 11:47:31 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 11:47:32 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 11:47:32 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 11:47:32 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 11:47:33 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 11:47:33 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 11:47:34 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 11:47:34 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:47:34 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 11:47:34 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:47:34 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 11:47:34 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:47:35 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 11:47:36 [main] org.springframework.boot.StartupInfoLogger - Started BankAccountServiceTest in 5.427 seconds (process running for 7.318)
+[$-5level] 2024-04-04 11:47:38 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:48:08 [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bootcamp.bank.app.BankAccountServiceTest]: BankAccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[$-5level] 2024-04-04 11:48:08 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bootcamp.bank.app.BankAppApplication for test class com.bootcamp.bank.app.BankAccountServiceTest
+[$-5level] 2024-04-04 11:48:09 [main] org.springframework.boot.StartupInfoLogger - Starting BankAccountServiceTest using Java 21.0.2 with PID 464 (started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 11:48:09 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 11:48:10 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 11:48:10 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 11:48:10 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 11:48:11 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 11:48:11 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 11:48:11 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 11:48:11 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 11:48:13 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 11:48:13 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:48:13 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 11:48:13 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:48:13 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 11:48:13 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:48:14 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 11:48:14 [main] org.springframework.boot.StartupInfoLogger - Started BankAccountServiceTest in 5.686 seconds (process running for 7.693)
+[$-5level] 2024-04-04 11:48:15 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
