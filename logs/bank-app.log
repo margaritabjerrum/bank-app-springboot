@@ -1,0 +1,173 @@
+[$-5level] 2024-04-04 10:10:27 [main] com.bootcamp.bank.app.BankAppApplication - Info log message
+[$-5level] 2024-04-04 10:10:27 [main] com.bootcamp.bank.app.BankAppApplication - Error log message
+[$-5level] 2024-04-04 10:10:27 [main] org.springframework.boot.StartupInfoLogger - Starting BankAppApplication using Java 21.0.2 with PID 6824 (C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app\target\classes started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 10:10:27 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 10:10:28 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 10:10:28 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 10:10:29 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[$-5level] 2024-04-04 10:10:29 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1695 ms
+[$-5level] 2024-04-04 10:10:29 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 10:10:29 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 10:10:29 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 10:10:30 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 10:10:30 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 10:10:31 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 10:10:31 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:10:31 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 10:10:31 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:10:31 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 10:10:31 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:10:32 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 10:10:33 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+[$-5level] 2024-04-04 10:10:33 [main] org.springframework.boot.StartupInfoLogger - Started BankAppApplication in 6.295 seconds (process running for 7.331)
+[$-5level] 2024-04-04 10:10:45 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:16:28 [main] com.bootcamp.bank.app.BankAppApplication - Info log message
+[$-5level] 2024-04-04 10:16:28 [main] com.bootcamp.bank.app.BankAppApplication - Error log message
+[$-5level] 2024-04-04 10:16:28 [main] org.springframework.boot.StartupInfoLogger - Starting BankAppApplication using Java 21.0.2 with PID 19304 (C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app\target\classes started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 10:16:28 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 10:16:29 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 10:16:29 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 10:16:30 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[$-5level] 2024-04-04 10:16:30 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1831 ms
+[$-5level] 2024-04-04 10:16:31 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 10:16:31 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 10:16:31 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 10:16:31 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 10:16:32 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 10:16:33 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 10:16:33 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:16:33 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 10:16:33 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:16:33 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 10:16:33 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:16:34 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 10:16:34 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+[$-5level] 2024-04-04 10:16:34 [main] org.springframework.boot.StartupInfoLogger - Started BankAppApplication in 6.445 seconds (process running for 7.569)
+[$-5level] 2024-04-04 10:16:35 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+[$-5level] 2024-04-04 10:16:35 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 2 ms
+[$-5level] 2024-04-04 10:19:38 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:19:42 [main] com.bootcamp.bank.app.BankAppApplication - Info log message
+[$-5level] 2024-04-04 10:19:42 [main] com.bootcamp.bank.app.BankAppApplication - Error log message
+[$-5level] 2024-04-04 10:19:43 [main] org.springframework.boot.StartupInfoLogger - Starting BankAppApplication using Java 21.0.2 with PID 1112 (C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app\target\classes started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 10:19:43 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 10:19:44 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 10:19:44 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 10:19:45 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[$-5level] 2024-04-04 10:19:45 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1726 ms
+[$-5level] 2024-04-04 10:19:45 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 10:19:45 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 10:19:45 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 10:19:46 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 10:19:46 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 10:19:47 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 10:19:47 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:19:47 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 10:19:47 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:19:47 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 10:19:47 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:19:47 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 10:19:48 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+[$-5level] 2024-04-04 10:19:48 [main] org.springframework.boot.StartupInfoLogger - Started BankAppApplication in 5.307 seconds (process running for 6.33)
+[$-5level] 2024-04-04 10:19:53 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+[$-5level] 2024-04-04 10:19:53 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 1 ms
+[$-5level] 2024-04-04 10:34:19 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:34:23 [main] com.bootcamp.bank.app.BankAppApplication - Info log message
+[$-5level] 2024-04-04 10:34:23 [main] com.bootcamp.bank.app.BankAppApplication - Error log message
+[$-5level] 2024-04-04 10:34:24 [main] org.springframework.boot.StartupInfoLogger - Starting BankAppApplication using Java 21.0.2 with PID 19688 (C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app\target\classes started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 10:34:24 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 10:34:25 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 10:34:25 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 10:34:25 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[$-5level] 2024-04-04 10:34:25 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1852 ms
+[$-5level] 2024-04-04 10:34:26 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 10:34:26 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 10:34:26 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 10:34:26 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 10:34:27 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 10:34:28 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 10:34:28 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:34:28 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 10:34:28 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:34:28 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 10:34:28 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:34:29 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 10:34:29 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+[$-5level] 2024-04-04 10:34:29 [main] org.springframework.boot.StartupInfoLogger - Started BankAppApplication in 6.174 seconds (process running for 7.418)
+[$-5level] 2024-04-04 10:35:03 [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+[$-5level] 2024-04-04 10:35:03 [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 1 ms
+[$-5level] 2024-04-04 10:35:33 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:35:36 [main] com.bootcamp.bank.app.BankAppApplication - Info log message
+[$-5level] 2024-04-04 10:35:36 [main] com.bootcamp.bank.app.BankAppApplication - Error log message
+[$-5level] 2024-04-04 10:35:37 [main] org.springframework.boot.StartupInfoLogger - Starting BankAppApplication using Java 21.0.2 with PID 7724 (C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app\target\classes started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 10:35:37 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 10:35:38 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 10:35:38 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 10:35:39 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[$-5level] 2024-04-04 10:35:39 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1761 ms
+[$-5level] 2024-04-04 10:35:39 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 10:35:39 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 10:35:39 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 10:35:40 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 10:35:40 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 10:35:41 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 10:35:41 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:35:41 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 10:35:41 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:35:41 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 10:35:41 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:35:42 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 10:35:42 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+[$-5level] 2024-04-04 10:35:42 [main] org.springframework.boot.StartupInfoLogger - Started BankAppApplication in 5.578 seconds (process running for 6.706)
+[$-5level] 2024-04-04 10:35:47 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+[$-5level] 2024-04-04 10:35:47 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 1 ms
+[$-5level] 2024-04-04 10:36:28 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:36:32 [main] com.bootcamp.bank.app.BankAppApplication - Info log message
+[$-5level] 2024-04-04 10:36:32 [main] com.bootcamp.bank.app.BankAppApplication - Error log message
+[$-5level] 2024-04-04 10:36:33 [main] org.springframework.boot.StartupInfoLogger - Starting BankAppApplication using Java 21.0.2 with PID 4628 (C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app\target\classes started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 10:36:33 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 10:36:34 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 10:36:34 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 10:36:35 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[$-5level] 2024-04-04 10:36:35 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2076 ms
+[$-5level] 2024-04-04 10:36:35 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 10:36:35 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 10:36:35 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 10:36:36 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 10:36:36 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 10:36:38 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 10:36:38 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:36:38 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 10:36:38 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 10:36:38 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 10:36:38 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 10:36:38 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 10:36:39 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+[$-5level] 2024-04-04 10:36:39 [main] org.springframework.boot.StartupInfoLogger - Started BankAppApplication in 6.618 seconds (process running for 7.743)
+[$-5level] 2024-04-04 10:36:55 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+[$-5level] 2024-04-04 10:36:55 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 2 ms
+[$-5level] 2024-04-04 10:37:30 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:23:36 [main] com.bootcamp.bank.app.BankAppApplication - Info log message
+[$-5level] 2024-04-04 11:23:36 [main] com.bootcamp.bank.app.BankAppApplication - Error log message
+[$-5level] 2024-04-04 11:23:36 [main] org.springframework.boot.StartupInfoLogger - Starting BankAppApplication using Java 21.0.2 with PID 20636 (C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app\target\classes started by MiGa2 in C:\Users\MiGa2\Desktop\Accenture Bootcamp\New Bank App\bank-app)
+[$-5level] 2024-04-04 11:23:36 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+[$-5level] 2024-04-04 11:23:37 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[$-5level] 2024-04-04 11:23:37 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+[$-5level] 2024-04-04 11:23:38 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[$-5level] 2024-04-04 11:23:38 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1764 ms
+[$-5level] 2024-04-04 11:23:38 [main] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[$-5level] 2024-04-04 11:23:38 [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[$-5level] 2024-04-04 11:23:38 [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[$-5level] 2024-04-04 11:23:39 [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[$-5level] 2024-04-04 11:23:39 [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[$-5level] 2024-04-04 11:23:40 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[$-5level] 2024-04-04 11:23:40 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:23:40 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - table "bank_account" does not exist, skipping
+[$-5level] 2024-04-04 11:23:40 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - SQL Warning Code: 0, SQLState: 00000
+[$-5level] 2024-04-04 11:23:40 [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler - sequence "bank_account_sequence" does not exist, skipping
+[$-5level] 2024-04-04 11:23:40 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[$-5level] 2024-04-04 11:23:41 [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[$-5level] 2024-04-04 11:23:41 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+[$-5level] 2024-04-04 11:23:41 [main] org.springframework.boot.StartupInfoLogger - Started BankAppApplication in 5.382 seconds (process running for 6.454)
+[$-5level] 2024-04-04 11:24:07 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+[$-5level] 2024-04-04 11:24:07 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 1 ms
+[$-5level] 2024-04-04 11:25:09 [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
