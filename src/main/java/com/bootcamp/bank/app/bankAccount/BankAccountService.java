@@ -1,17 +1,19 @@
 package com.bootcamp.bank.app.bankAccount;
 
+import com.bootcamp.bank.app.BankAppApplication;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 
 @Service
 public class BankAccountService {
-
+  private static final Logger logger = LogManager.getLogger(BankAppApplication.class.getName());
   private final BankAccountRepository bankAccountRepository;
 
   @Autowired
@@ -20,8 +22,12 @@ public class BankAccountService {
   }
 
   @GetMapping
-  public List<BankAccount> getBankAccount() {
+  public List<BankAccount> getBankAccounts() {
     return bankAccountRepository.findAll();
+  }
+
+  public Optional<BankAccount> getBankAccountById(Long bankAccountId) {
+    return bankAccountRepository.findById(bankAccountId);
   }
 
   public void addNewBankAccount(BankAccount bankAccount) {
@@ -43,10 +49,9 @@ public class BankAccountService {
       );
     }
     bankAccountRepository.deleteById(bankAccountId);
-
   }
 
-  public void updateBankAccount(Long bankAccountId, BankAccount bankAccount) {
+  public BankAccount updateBankAccount(Long bankAccountId, BankAccount bankAccount) {
     BankAccount bankAccountToUpdate = bankAccountRepository.findById(bankAccountId)
             .orElseThrow(() -> new IllegalStateException(
                     "Bank account with id " + bankAccountId + " does not exist"
@@ -56,6 +61,7 @@ public class BankAccountService {
     bankAccountToUpdate.setEmail(bankAccount.getEmail());
     bankAccountToUpdate.setBalance(bankAccount.getBalance());
     bankAccountRepository.save(bankAccountToUpdate);
+    return bankAccountToUpdate;
   }
 
   @Transactional

@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BankAppApplication {
 	private static final Logger logger = LogManager.getLogger(BankAppApplication.class.getName());
 	public static void main(String[] args) {
-		logger.debug("Debug log message");
 		logger.info("Info log message");
 		logger.error("Error log message");
 		SpringApplication.run(BankAppApplication.class, args);
